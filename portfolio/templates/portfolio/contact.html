@@ -1,0 +1,13 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+<h2>Contact Me</h2>
+<p>If you’d like to get in touch, please use the contact details below:</p>
+<ul>
+  <li><strong>Address:</strong> {{ contact.address }}</li>
+  <li><strong>Phone:</strong> {{ contact.phone }}</li>
+  <li><strong>Email:</strong> <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
+  <li><strong>LinkedIn:</strong> <a href="{{ contact.linkedin }}" target="_blank">{{ contact.linkedin }}</a></li>
+  <li><strong>GitHub:</strong> <a href="{{ contact.github }}" target="_blank">{{ contact.github }}</a></li>
+</ul>
+{% endblock %}

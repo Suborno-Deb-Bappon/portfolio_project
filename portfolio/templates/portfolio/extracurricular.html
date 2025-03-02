@@ -1,0 +1,10 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+<h2>Extracurricular Activities</h2>
+<ul class="list-group">
+  {% for activity in activities %}
+  <li class="list-group-item">{{ activity }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

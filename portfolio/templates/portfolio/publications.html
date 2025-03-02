@@ -1,0 +1,15 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+<h2>Publications</h2>
+<ul class="list-group">
+  {% for pub in publications %}
+  <li class="list-group-item">
+    <strong>{{ pub.title }}</strong><br>
+    <small>{{ pub.details }}</small>
+    {% if pub.link %}
+      <br><a href="{{ pub.link }}" target="_blank">Read More</a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+<h2>About Me</h2>
+<p>{{ summary }}</p>
+
+<h3>Technical Skills</h3>
+<ul>
+  {% for skill in technical_skills %}
+  <li>{{ skill }}</li>
+  {% endfor %}
+</ul>
+
+<h3>Technologies & Frameworks</h3>
+<ul>
+  {% for tech in technologies %}
+  <li>{{ tech }}</li>
+  {% endfor %}
+</ul>
+
+<h3>Tools & Environments</h3>
+<ul>
+  {% for tool in tools %}
+  <li>{{ tool }}</li>
+  {% endfor %}
+</ul>
+
+<h3>Research Interests</h3>
+<ul>
+  {% for interest in research_interests %}
+  <li>{{ interest }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

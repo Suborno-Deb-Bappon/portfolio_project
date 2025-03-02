@@ -1,0 +1,27 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+<h2>Certifications</h2>
+<ul class="list-group">
+  {% for cert in certifications %}
+  <li class="list-group-item">
+    {% if cert.link %}
+      <a href="{{ cert.link }}" target="_blank">{{ cert.text }}</a>
+    {% else %}
+      {{ cert.text }}
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
+
+
+{% comment %} {% extends 'portfolio/base.html' %}
+
+{% block content %}
+<h2>Certifications</h2>
+<ul class="list-group">
+  {% for cert in certifications %}
+  <li class="list-group-item">{{ cert }}</li>
+  {% endfor %}
+</ul>
+{% endblock %} {% endcomment %}

@@ -1,0 +1,23 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+<h2>Projects</h2>
+<div class="row">
+  {% for project in projects %}
+  <div class="col-md-6 mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">{{ project.title }}</h5>
+        <p class="card-text">{{ project.description }}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Tech Stack: {{ project.tech_stack }}</small>
+        {% if project.link %}
+        <br>
+        <a href="{{ project.link }}" target="_blank">View Project</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

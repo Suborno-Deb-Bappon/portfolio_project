@@ -1,0 +1,28 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% block content %}
+<div class="jumbotron text-center">
+  <!-- Display your image -->
+  <img src="{% static 'portfolio/images/suborno.jpg' %}" alt="Suborno Deb Bappon" class="img-fluid rounded-circle" style="max-width: 200px;">
+  <h1 class="display-4">{{ name }}</h1>
+  <p class="lead">{{ summary }}</p>
+  <hr class="my-4">
+  <p>Welcome to my professional portfolio website.</p>
+  <a class="btn btn-primary btn-lg" href="/about/" role="button">Know More?</a>
+</div>
+
+<div class="row mt-5">
+  <div class="col-md-4">
+    <h3>Address</h3>
+    <p>{{ contact.address }}</p>
+  </div>
+  <div class="col-md-4">
+    <h3>Phone</h3>
+    <p>{{ contact.phone }}</p>
+  </div>
+  <div class="col-md-4">
+    <h3>Email</h3>
+    <p>{{ contact.email }}</p>
+  </div>
+</div>
+{% endblock %}

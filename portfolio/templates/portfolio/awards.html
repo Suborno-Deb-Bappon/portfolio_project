@@ -1,0 +1,10 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+<h2>Awards & Honors</h2>
+<ul class="list-group">
+  {% for award in awards %}
+  <li class="list-group-item">{{ award }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
