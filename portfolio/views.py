@@ -68,14 +68,14 @@ def education(request):
                 'institution': 'University of Saskatchewan',
                 'duration': 'Sept. 2023 – Aug. 2025 (Tentative)',
                 'grade': '89.5%',
-                'details': 'Research Areas: Software Engineering, Generative AI; Thesis: Leveraging Context-Aware Large Language Models to Enhance the Quality and Usability of Technical Question-Answering Forums. Advisors: Dr. Kevin Schneider and Dr. Chanchal K. Roy.'
+                'details': 'Research Areas: Software Engineering, Generative AI. \n Thesis: Leveraging Context-Aware Large Language Models to Enhance the Quality and Usability of Technical Question-Answering Forums. \n Advisors: Dr. Kevin Schneider and Dr. Chanchal K. Roy.'
             },
             {
                 'degree': 'Bachelor of Science - Computer Science and Engineering',
                 'institution': 'Chittagong University of Engineering and Technology (CUET)',
                 'duration': 'Feb. 2017 – Sept. 2022',
                 'grade': '3.76/4.00 (Top 2% in the class)',
-                'details': 'Thesis: Sentiment Analysis from Bengali Tech-Gadget Reviews Text using Deep Learning. Advisor: Dr. Muhammad Ibrahim Khan.'
+                'details': 'Thesis: Sentiment Analysis from Bengali Tech-Gadget Reviews Text using Deep Learning. \n Advisor: Dr. Muhammad Ibrahim Khan.'
             }
         ]
     }
@@ -84,11 +84,11 @@ def education(request):
 def projects(request):
     context = {
         'projects': [
-            {
-                'title': 'Browser Plugin for Enhanced Stack Overflow Answers',
-                'description': 'Leveraging LLMs to integrate contextually relevant comment suggestions.',
-                'tech_stack': 'Python, Flask, HTML, CSS, JavaScript'
-            },
+            # {
+            #     'title': 'Browser Plugin for Enhanced Stack Overflow Answers',
+            #     'description': 'Leveraging LLMs to integrate contextually relevant comment suggestions.',
+            #     'tech_stack': 'Python, Flask, HTML, CSS, JavaScript'
+            # },
             {
                 'title': 'Context-Aware Inline Comments Plugin',
                 'description': 'Built to generate inline comments for code snippets on Q&A platforms.',

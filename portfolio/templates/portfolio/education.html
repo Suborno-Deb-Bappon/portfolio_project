@@ -6,7 +6,7 @@
 <div class="mb-4">
   <h4>{{ edu.degree }}</h4>
   <p><strong>{{ edu.institution }}</strong> | {{ edu.duration }} | Grade: {{ edu.grade }}</p>
-  <p>{{ edu.details }}</p>
+  <p>{{ edu.details|linebreaksbr }}</p>
 </div>
 <hr>
 {% endfor %}
