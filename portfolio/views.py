@@ -133,47 +133,47 @@ def publications(request):
         'publications': [
             {
                 'title': 'AUTOGENICS: Automated Generation of Context-Aware Inline Comments for Code Snippets on Programming Q&A Sites Using LLM',
-                'details': 'IEEE SCAM 2024, pp. 24-35',
+                'details': 'IEEE SCAM 2024, pp. 24-35. \n Authors: Suborno Deb Bappon, Saikat Mondal, Banani Roy',
                 'link': 'https://www.computer.org/csdl/proceedings-article/scam/2024/285000a024/22NQVK0OBiw'
             },
             {
                 'title': 'Enhancing User Interaction in ChatGPT: Characterizing and Consolidating Multiple Prompts for Issue Resolution',
-                'details': 'IEEE/ACM MSR 2024, pp. 222-226',
+                'details': 'IEEE/ACM MSR 2024, pp. 222-226. \n Authors: Saikat Mondal, Suborno Deb Bappon, Chanchal K. Roy',
                 'link': 'https://dl.acm.org/doi/10.1145/3643991.3645085'
             },
             {
                 'title': 'Integrating CNNs for Microscopic Image Analysis in Leukemia Classification',
-                'details': 'Systems and Soft Computing (2024), 6, 200121',
+                'details': 'Systems and Soft Computing (2024), 6, 200121. \n Authors: Md. Samiul Alim, Suborno Deb Bappon, Shahriar Mahmud Sabuj, Md Jayedul Islam, Muhammad Masud Tarek, Md. Shafiul Azam, Md. Monirul Islam',
                 'link': 'https://www.sciencedirect.com/science/article/pii/S2772941924000504'
             },
             {
                 'title': 'Explainable Machine Learning for Drug Classification',
-                'details': 'In 2023 International Conference on Electrical and Electronics Engineering, pp. 673-683',
+                'details': 'In 2023 International Conference on Electrical and Electronics Engineering, pp. 673-683. \n Authors: Krishna Mridha, Suborno Deb Bappon, Shahriar Mahmud Sabuj, Tasnim Sarker, Ankush Ghosh',
                 'link': 'https://link.springer.com/chapter/10.1007/978-981-99-8661-3_48'
             },
             {
                 'title': 'Attention U-Net: A Deep Learning Approach for Breast Cancer Segmentation',
-                'details': 'In 2023 International Conference on Quantum Technologies (iQ-CCHESS), pp. 1-6',
+                'details': 'In 2023 International Conference on Quantum Technologies (iQ-CCHESS), pp. 1-6. \n Authors: Krishna Mridha, Tasnim Sarker, Suborno Deb Bappon, Shahriar Mahmud Sabuj',
                 'link': 'https://ieeexplore.ieee.org/abstract/document/10391674'
             },
             {
                 'title': 'Classification of Tourism Reviews from Bengali Texts using Multinomial Naïve Bayes',
-                'details': 'In 2022 25th International Conference on Computer and Information Technology (ICCIT), pp. 270-275',
+                'details': 'In 2022 25th International Conference on Computer and Information Technology (ICCIT), pp. 270-275. \n Authors: Suborno Deb Bappon, Asif Iqbal',
                 'link': 'https://ieeexplore.ieee.org/abstract/document/10055560'
             },
             {
                 'title': 'Sentiment Analysis of Bengali Texts on Tech Gadget Reviews using Machine Learning',
-                'details': 'In 2022 25th ICCIT, pp. 324-329',
+                'details': 'In 2022 25th ICCIT, pp. 324-329. \n Authors: Suborno Deb Bappon, Golam Sarwar Md. Mursalin, Muhammad Ibrahim Khan',
                 'link': 'https://ieeexplore.ieee.org/abstract/document/10055639'
             },
             {
                 'title': 'Toward a Machine Learning Approach to Predict the CO2 Rating of Fuel-Consuming Vehicles in Canada',
-                'details': 'In 2022 25th ICCIT, pp. 384-389',
+                'details': 'In 2022 25th ICCIT, pp. 384-389. \n Authors: Suborno Deb Bappon, Ashim Dey, Shahriar Mahmud Sabuj, Annesha Das',
                 'link': 'https://ieeexplore.ieee.org/abstract/document/10054732'
             },
             {
                 'title': 'A Deep Learning Approach for Recognizing Textual Emotion from Bengali-English Code-Mixed Data',
-                'details': 'In 2022 25th ICCIT, pp. 330-335',
+                'details': 'In 2022 25th ICCIT, pp. 330-335. \n Authors: Golam Sarwar Md Mursalin, Suborno Deb Bappon, Muhammad Ibrahim Khan',
                 'link': 'https://ieeexplore.ieee.org/abstract/document/10054872'
             }
         ]
